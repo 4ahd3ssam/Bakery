@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*home section*/
+.home-section {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-color: rgba(0, 186, 192, 0);
+    height: 100vh;
+    width: 100%;
+}
+.home-layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-section {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 45px;
+}
+.click-icon {
+    width: 15%;
+    margin: auto;
+    margin-top: 50px;
+}
+.click-icon img {
+    width: 60%;
+}
+.click-icon:hover img {
+    transform: scale(1.1);
+}
+.button {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 5px;
+}
+.learn-btn a {
+    background-color: rgb(111, 100, 74);
+}
+.contact-btn a {
+    background-color: rgba(111, 100, 74, 0);
+    border: solid 2px white;
+}
+.button a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 24px;    
+    border-radius: 5%;
+    font-weight: 700;
+    font-size: 16px;
+}
+.learn-btn a:hover {
+    color: black;
+    background-color: white;
+}
+.contact-btn a:hover {
+    color: black;
+    background-color: white;
+}
+h1, h2, h3, h4 {
+    font-family: "Alegreya", serif;
+}
+h1 {
+    line-height: 100px;
+    font-size: 70px;
+    font-weight: 400;
+}
+h3 {
+    color: rgb(72, 72, 72);
+    line-height: 90px;
+    font-size: 32px;
+}
+h4 {
+    font-size: 22px;
+    line-height: 55px;
+}
+/*other sections*/
+.who-we-are-section, .our-location-section, 
+.baking, .contact-information-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-baking-section {
+    width: 100%;
+}
+.our-baking-section .intro {
+    text-align: center;
+}
+.who-we-are-section > div, .our-location-section > div, 
+.baking > div, .contact-information-section > div {
+    width: 100%;
+    padding: 20px;
+}
+.image-part img {
+    width: 100%;
+}
+.description-part img {
+    vertical-align: middle;
+    width: 10%;
+    margin-right: 10px;
+}
+.description-part, .our-baking-section {
+    vertical-align: top;
+    color: rgb(86, 86, 86);
+    line-height: 30px;
+    font-size: 18px;
+}
+.description-part div {
+    margin-top: 15px;
+}
+.description-part p {
+    margin-bottom: 30px;
+}
+.our-location-section, .contact-information-section {
+    background-color: rgb(245, 245, 245);
+}
+.baking-desciption img {
+    width: 100%;
+}
+.baking-desciption p {
+    font-size: 18px;
+}
+.contact-information-section .description-part p {
+    margin-bottom: 18px;
+}
+.google-map iframe {
+    width: 100%;
+    height: 500px; /*allowed ?*/
+    margin-top: 40px;
+}

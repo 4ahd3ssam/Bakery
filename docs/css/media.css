@@ -1,0 +1,71 @@
+@media screen and (min-width: 1100px) {
+    .mobile-nav, .menu, .exit {
+        display: none
+    }
+    .main-nav .nav-links {
+        display: block;
+    }
+    .main-nav .nav-links ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 20px;
+    }
+    .who-we-are-section, .our-location-section, 
+    .our-baking-section, .contact-information-section {
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 100px;
+        column-gap: 20px;
+    }
+    .who-we-are-section > div, .our-location-section > div, 
+    .contact-information-section > div {
+        width: 50%;
+        padding: 20px;
+    }
+    .baking > div {
+        width: 33.333%;
+    }
+    .our-story {
+        width: 80%;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .our-story picture, .our-story .content {
+        width: 50%;
+    }
+    .why-our-bakery .info {
+        width: 33.333%;
+        padding-inline: 5px;
+    }
+    .offers {
+        flex-wrap: wrap;
+    }
+    .offer {
+        width: 33.333%;
+    }
+    .contact {
+        flex-wrap: nowrap;
+        width: 80%;
+    }
+    .contact .contact-form, .contact .contact-content {
+        width: 50%;
+    }
+    .contact-form form textarea {
+        height: 250px;
+    }
+    .contact-form form .two-inputs {
+        flex-wrap: nowrap;
+    }
+    .adjacent {
+        width: 50%
+    }
+    .information-section {
+        width: 100%;
+        padding: 0;
+    }
+    .information-part {
+        padding: 40px;
+        width: 25%;
+    } 
+}

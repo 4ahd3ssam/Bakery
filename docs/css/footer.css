@@ -1,0 +1,65 @@
+footer {
+    background-color: rgb(47, 42, 42);
+    color:rgb(119, 119, 119);
+    padding-block: 60px;
+}
+footer .bakery-icon, footer .copyright, footer .icons {
+    text-align: center;
+    margin-top: 30px;
+}
+.icons {
+    width: 200px;
+    margin: auto;
+}
+.icons .facebook {
+    background-image: url('../images/facebook-app-symbol-gray.png');
+}
+.icons .linkedin {
+    background-image: url('../images/linkedin-gray.png');
+}
+.icons .twitter {
+    background-image: url('../images/twitter-gray.png');
+}
+.icons .google {
+    background-image: url('../images/google-plus-gray.png');
+}
+.facebook, .linkedin, .twitter, .google {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+}
+.icons .container {
+    background-color: rgb(62, 57, 57);
+    float: left;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.facebook-container:hover > .facebook { /*when hovering .facebook-container, select direct .facebook child*/
+    background-image: url('../images/facebook-app-symbol.png');
+}
+.facebook-container:hover {
+    background-color: rgb(5, 69, 137);
+}
+.linkedin-container:hover > .linkedin {
+    background-image: url('../images/linkedin.png');
+}
+.linkedin-container:hover {
+    background-color: rgb(39, 125, 205);
+}
+.twitter-container:hover > .twitter {
+    background-image: url('../images/twitter.png');
+}
+.twitter-container:hover {
+    background-color: rgb(51, 174, 255);
+}
+.google-container:hover > .google {
+    background-image: url('../images/google-plus.png');
+}
+.google-container:hover {
+    background-color: rgb(175, 41, 26);
+}
+.container:hover {
+    cursor: pointer; /*cursor acts as hovering on a link*/
+}

@@ -1,0 +1,112 @@
+* {
+    font-family: "Alegreya", serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/*header*/
+.header {
+    background-image: url('../images/background.jpg');
+    background-position: 20% 60%;
+    height: 33.333vh;
+    width: 100%;
+    color: white;
+}
+.header-layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.512);
+}
+.header .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+}
+.header h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+.header p {
+    font-size: 16px;
+    font-weight: 100;
+}
+.header p a {
+    text-decoration: none;
+    color: rgb(182, 181, 181);
+}
+/*contact*/
+.contact {
+    width: 90%;
+    margin: auto;
+    padding-block: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+.contact .contact-form, .contact .contact-content {
+    width: 100%;
+}
+.contact h1 {
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(36, 36, 36);
+    padding-block: 10px;
+}
+.contact-form form {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.contact-form form .row {
+    width: 100%;
+}
+.contact-form form .two-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.contact-form form input, .contact-form form textarea {
+    padding: 15px 10px;
+    font-size: 16px;
+    color: rgb(210, 210, 210); /*how to change color of the placeholder ?*/
+    width: 100%;
+    border: 1px solid rgb(210, 210, 210);
+}
+.contact-form form textarea {
+    height: 100px;
+}
+.contact-form form input:focus, .contact-form form textarea:focus {
+    outline: none;
+    border: 1px solid rgb(165, 165, 165);
+}
+.contact-form form button {
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(66, 159, 205);
+    transition: 0.5s;
+}
+.contact-form form button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 31, 31);
+}
+.contact-content p {
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(130, 130, 130);
+    line-height: 25px;
+    padding-block: 20px;
+}

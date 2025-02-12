@@ -1,0 +1,38 @@
+.information-about-us-section {
+    background-color: rgb(66, 62, 58);
+}
+.information-section {
+    color:rgb(150, 150, 150);
+    padding: 80px;
+    font-size: 16px;
+    line-height: 25px;
+    overflow: auto;
+}
+.information-section h4 {
+    color: white;
+    font-size: 18px;
+}
+.information-part {
+    width: 100%;
+    vertical-align: top;
+    float: left;
+} 
+.information-row {
+    margin-top: 20px;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.186);
+    margin-right: 5px;
+    padding: 2px 0;
+    overflow: auto;
+}
+.information-row div {
+    float: left;
+}
+.information-row .img {
+    width: 12%;
+}
+.information-row .img img {
+    width: 50%;
+}
+.information-row .info {
+    width: 80%;
+}
