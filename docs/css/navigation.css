@@ -37,6 +37,7 @@ body {
 .side-links {
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 .side-links ul {
     width: 100%;
