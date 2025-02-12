@@ -11,6 +11,9 @@
         flex-wrap: nowrap;
         column-gap: 20px;
     }
+    .welcome-message {
+        transform: scale(1);
+    }
     .who-we-are-section, .our-location-section, 
     .our-baking-section, .contact-information-section {
         flex-wrap: nowrap;
